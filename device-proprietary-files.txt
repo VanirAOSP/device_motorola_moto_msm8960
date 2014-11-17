@@ -62,6 +62,9 @@ lib/pp_proc_plugin.so
 # DRM
 bin/qseecomd
 lib/libQSEEComAPI.so
+lib/libdrmdecrypt.so
+lib/libprdrmdecrypt.so
+lib/libtzplayready.so
 vendor/lib/mediadrm/libwvdrmengine.so
 
 # GPS - from N1
@@ -148,9 +151,6 @@ etc/firmware/vidcfw.elf
 bin/batt_health
 bin/whisperd
 lib/libmoto_netutil.so
-
-# NFC
-lib/hw/nfc.MSM8960.so
 
 # Postprocessing
 bin/mm-pp-daemon
