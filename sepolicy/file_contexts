@@ -35,9 +35,6 @@
 # qdumpd
 /dev/coredump_modem                u:object_r:qdumpd_device:s0
 
-# time_daemon
-/data/time(/.*)?                   u:object_r:time_data_file:s0
-
 # atvc_core
 /dev/sec                           u:object_r:atvc_core_device:s0
 
