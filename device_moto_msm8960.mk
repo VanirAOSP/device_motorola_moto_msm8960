@@ -34,7 +34,6 @@ PRODUCT_COPY_FILES += \
 
 # Audio
 PRODUCT_PACKAGES += \
-    audio_policy.msm8960 \
     audio.primary.msm8960
 
 # HAL
@@ -109,10 +108,6 @@ PRODUCT_PACKAGES += \
     init.qcom.post_boot.sh \
     init.qcom.sh \
     init.qcom.wifi.sh
-
-# Scripts
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/rootdir/etc/mount_pds.sh:system/bin/mount_pds.sh
 
 BOARD_USERDATAIMAGE_FILE_SYSTEM_TYPE := f2fs
 $(warning "USING F2FS for userdata")
